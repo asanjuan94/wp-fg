@@ -2,12 +2,12 @@ jQuery(document).ready(function() {
     jQuery('#myTable').DataTable( {
 		"processing" : true,	
         "ajax": {
-             "url": "http://sede.fg.ull.es/opendata/api/cursoects",
+             "url": "https://api.myjson.com/bins/14t4g",
             dataSrc : ''
          },
         "columns": [
-            { "data": "ID" },
-			{ "data": "Titulo" }
+            { "data": "id" },
+			{ "data": "name" }
         ]
     } );
 } );
